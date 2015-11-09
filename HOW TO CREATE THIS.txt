@@ -1,0 +1,29 @@
+Needed for "UI":
+
+node.js / npm
+--------------------------------------------
+Needed for server:
+
+Python
+VirtualEnv
+pip
+Flask
+PyInstaller
+--------------------------------------------
+
+npm install electron-prebuilt -g
+
+
+--------------------------------------------
+Files need to create:
+
+COPY C:\Users\...\AppData\Roaming\npm\node_modules\electron-prebuilt\dist\THIS_IS_YOUR_APP
+
+package.json   (version #, deps, etc)
+main.js   (for electron's setup)
+
+/run/PYTHON_DIRECTORY_OF_PYINSTALLER
+
+resources/default_app/libs/js
+resources/default_app/libs/css
+resources/default_app/templates
